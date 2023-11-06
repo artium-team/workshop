@@ -12,4 +12,6 @@ I recommend you using a code editor or an IDE such as [Visual Studio Code](https
 
 You need to know what is Brainfuck and how it works to create an interpreter!
 
+Brainfuck has only 8 commands: `+`, `-`, `>`, `<`, `.`, `,`, `[`, and `]`
+
 ## ✏️ Coding
