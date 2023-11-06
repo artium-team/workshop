@@ -1,1 +1,3 @@
-# workshop
+# Artium Workshop
+
+## 🌈 Get start
