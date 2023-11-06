@@ -1,3 +1,3 @@
 # 🤯 Brainfuck Interpreter Tutorial! 🧠
 
-## Setup
+## 🔨 Setup
