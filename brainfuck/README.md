@@ -35,3 +35,17 @@ Brainfuck has only 8 commands: `+`, `-`, `>`, `<`, `.`, `,`, `[`, and `]`
 And you can read, learn more about Brainfuck [here](https://en.wikipedia.org/wiki/Brainfuck)
 
 ## ✏️ Coding
+
+We start by create a C file name `main.c` or any name you like
+
+First, we include some libraries and define `MEMORY_SIZE` as 30'000
+
+Why 30'000? Because Brainfuck has at least 30'000 or more
+
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#define MEMORY_SIZE 30000
+```
