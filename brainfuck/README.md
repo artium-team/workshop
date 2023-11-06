@@ -51,3 +51,20 @@ Why `30 000`? Because Brainfuck has at least `30 000`or more
 ```
 
 <br/>
+
+Now, we create a function that read input file and return its content as a string
+
+```c
+char* readFile(char* filename) {
+    FILE* file = fopen(filename,"r");
+    if(file == NULL) {
+        return NULL;
+    }
+    fseek(file, 0, SEEK_END);
+    long int size = ftell(file);
+    rewind(file);
+    char* content = calloc(size + 1, 1);
+    fread(content,1,size,file);
+    return content;
+}
+```
