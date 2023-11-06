@@ -38,11 +38,11 @@ And you can read, learn more about Brainfuck [here](https://en.wikipedia.org/wik
 
 We start by create a C file name `main.c` or any name you like
 
-First, we include some libraries and define `MEMORY_SIZE` as 30'000
+First, we include some libraries and define `MEMORY_SIZE` as `30 000`
 
-Why 30'000? Because Brainfuck has at least 30'000 or more
+Why `30 000`? Because Brainfuck has at least `30 000`or more
 
-```
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
