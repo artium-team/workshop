@@ -52,7 +52,7 @@ Why `30 000`? Because Brainfuck has at least `30 000`or more
 
 <br/>
 
-Now, we create a function that read input file and return its content as a string
+Now, we create a simple function that reads input file and returns its content as a string
 
 ```c
 char* readFile(char* filename) {
